@@ -4,8 +4,13 @@ gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll", path: ".."
 gem "rake"
 
-gem "tzinfo-data"
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+gem 'tzinfo'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
+
+gem 'csv'
+gem 'base64'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
