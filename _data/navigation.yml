@@ -14,3 +14,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+counts:
+  - title: "Categories"
+    use: true
+  - title: "Tags"
+    use: false
