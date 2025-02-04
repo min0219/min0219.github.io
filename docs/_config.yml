@@ -28,7 +28,7 @@ enable_copy_code_button  : true
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "MIN:D"
+    shortname            : "min-d"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -231,7 +231,7 @@ defaults:
       read_time: false
       author_profile: false
       share: false
-      comments: true
+      comments: false
       toc_sticky: true
       sidebar:
         nav: "docs"
