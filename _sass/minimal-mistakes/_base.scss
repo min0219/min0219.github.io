@@ -149,12 +149,15 @@ button:focus {
 /* code */
 
 tt,
-code,
 kbd,
 samp,
+code {
+  font-family: $monospace;
+  color : #E65858;
+}
+
 pre {
   font-family: $monospace;
-  color : #E65858
 }
 
 pre {
